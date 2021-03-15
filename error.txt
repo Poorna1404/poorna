@@ -1,0 +1,36 @@
+Hope:
+C:\Imp\3B2\3B2_Scpts.3d
+
+
+C:\Imp\SAGE_US\Logos\
+
+
+C:\Imp\SAGE_UK\Logos\
+
+
+C:\Imp\General\Logos\
+
+
+C:\Imp\General\UK\Logos\
+
+C:\Imp\GSJ\template.3f
+
+
+
+<history><date date-type="received"><day>31</day><month>3</month><year>2020</year></date><date date-type="rev-recd"><day>5</day><month>7</month><year>2020</year></date><date date-type="accepted"><day>19</day><month>7</month><year>2020</year></date></history>
+
+
+<?show =1?^!'number(boolean(ancestor::ref))'+2?^!'count(ancestor::person-group/child::name)'=1?^!'count(parent::name/following-sibling::name)'=1?^!'number(boolean(ancestor::person-group[@person-group-type="author"]))'=0?^!'number(boolean(parent::name/following-sibling::etal))'[?tic=r],>
+
+<inline-formula id="inline-formula1-1729881420945956"><math display="inline"><mrow><mover accent="true"><mtext>X</mtext><mo>&macr;</mo></mover></mrow></math></inline-formula>
+
+<?:Ent_caret><?show =1?^!'number(boolean(descendant::*[@stretchy="true"]))'[dlr]\\hat[/dlr][?--]><dlr>\hat</dlr><?->“
+
+
+<title><?A3B2 show [$]\\hskip--12pt\\vskip24pc\\rotate{?><?A3B2 tf="PAC5A"?>Appendix<?A3B2 show [$]?></title>
+
+
+<?:Hurix_uni><?up><?tf="SimSun (TrueType)"><?-><?:Hurix_/uni><?down><?->
+
+
+http://eproof.hurix.com/hope/#/task2
